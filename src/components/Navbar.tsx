@@ -35,12 +35,6 @@ const Navbar: React.FC = () => {
         style={{ fontWeight:'bold'}}
         color='inherit'
         >
-            Works
-          </Button>
-          <Button 
-        style={{ fontWeight:'bold'}}
-        color='inherit'
-        >
             CONTACT
           </Button>
         </Toolbar>

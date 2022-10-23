@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box } from '@mui/system'
-import { Typography } from '@mui/material'
+import { colors, Typography } from '@mui/material'
 import Card from '@mui/material/Card'
 import CardContent from '@mui/material'
 
@@ -14,7 +14,7 @@ const About = () =>{
                     </Typography>
                 </Box>
             <Box display='flex' justifyContent='center' p={1}>
-            <Card sx={{ maxWidth: 700 }}>
+            <Card sx={{ maxWidth: 700, width: 500}} style={{backgroundColor: "whitesmoke"}}>
                 <Typography variant='body1' align='left' p={2}>
                 C-Style（株）CEO<br />
                 /米子高専/高専を盛り上げる活動をしています！<br />
