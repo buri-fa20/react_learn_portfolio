@@ -22,7 +22,7 @@ import ImageFile from '../static/images/TSD2GN3U2-USRRWDH9T-f1e464fb4f08-192.jpe
             HARUKI SEJIMA
           </Typography>
         </Box>
-        <Box display='flex' justifyContent='center' p={1} >
+        <Box display='flex' justifyContent='center' p={0} >
           <Typography variant='body1'>
             C-Style inc. CEO
           </Typography>
