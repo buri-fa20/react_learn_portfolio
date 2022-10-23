@@ -1,5 +1,8 @@
 import React from 'react';
-import { AppBar, Button, Toolbar } from '@mui/material';
+import { AppBar, Button,Toolbar} from '@mui/material';
+import { green, red } from '@mui/material/colors';
+
+const color = green[400];
 
 const Navbar: React.FC = () => {
     return (
@@ -7,19 +10,37 @@ const Navbar: React.FC = () => {
       <AppBar
         color='default'
         position='static'
-        style={{ alignItems: 'center'}}
+        style={{ alignItems: 'center', backgroundColor: color}}
       >
         <Toolbar>
-          <Button>
+        <Button 
+        style={{ fontWeight:'bold'}}
+        color='inherit'
+        >
+            TOP
+          </Button>
+        <Button 
+        style={{ fontWeight:'bold'}}
+        color='inherit'
+        >
             ABOUT
           </Button>
-          <Button color='inherit'>
+          <Button 
+        style={{ fontWeight:'bold'}}
+        color='inherit'
+        >
             SKILLS
           </Button>
-          <Button color='inherit'>
+          <Button 
+        style={{ fontWeight:'bold'}}
+        color='inherit'
+        >
             Works
           </Button>
-          <Button color='inherit'>
+          <Button 
+        style={{ fontWeight:'bold'}}
+        color='inherit'
+        >
             CONTACT
           </Button>
         </Toolbar>
@@ -28,4 +49,4 @@ const Navbar: React.FC = () => {
     );
 }
 
-export default Navbar;
+export default Navbar
